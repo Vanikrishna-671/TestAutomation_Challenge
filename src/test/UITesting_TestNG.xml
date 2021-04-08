@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="UIAutomationSuite">
+    <listeners>
+        <listener class-name="com.oppenheimer.utils.ExtentReportListener"/>
+    </listeners>
+    <test name="UIAutomation_TestCases" group-by-instances="true">
+        <classes>
+            <class name="com.oppenheimer.testcase.TC05OppenheimerUI_Test"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
