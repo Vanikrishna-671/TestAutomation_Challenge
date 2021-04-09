@@ -10,7 +10,7 @@ To run this :
 I have created two testNG.xml files named:
     1.APITesting_TestNG.xml
     2.UITesting_TestNG.xml
-
+  Note:If you want to run UITesting_TestNG.xml then please add this path under "<suiteXmlFile>" in pom xml file
 To Run
     1.Can run through maven
     2.Or directly running TestNg.xml 
